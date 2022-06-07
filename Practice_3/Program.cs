@@ -95,20 +95,7 @@ namespace Practice_3
                 else
                     seconds = value;
             }
-        }  /*                   
-        public DateTime getDateTime
-        {
-            get
-            {
-                return dateTime;
-            }
-            set 
-            { 
-                value = DateTime.Now;
-                dateTime = value; 
-            }
-            
-        }*/
+        }
         //setTime(DateTime dateTime), который устанавливает часы, минуты и секунды из DateTime
         public DateTime SetTime(DateTime dateTime)
         {
